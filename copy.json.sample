@@ -1,0 +1,14 @@
+{
+	"bot": {
+		"prefix": "cr.",
+		"token": "token"
+	},
+	"swgohgg": {
+		"user": "allmightysauron",
+		"password": "password"
+	},
+	"swgohhelp": {
+		"user": "allmightysauron",
+		"password": "password"
+	}
+}

@@ -1,0 +1,32 @@
+{
+  "name": "discordbot",
+  "version": "1.2.3",
+  "description": "SWGOH Captain Rex discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "qa": "nyc mocha"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "swgoh"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table3": "^0.5.3",
+    "discord-command-parser": "^1.5.3",
+    "discord.js": "^12.5.3",
+    "log4js": "^6.3.0",
+    "swgoh-api-swgohgg": "^0.2.0",
+    "swgoh-api-swgohhelp": "^0.3.1",
+    "swgoh-stat-calc": "^1.1.2",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.13.1",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0"
+  }
+}

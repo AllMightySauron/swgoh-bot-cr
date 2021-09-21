@@ -1,0 +1,193 @@
+[
+    {
+        "area": "General", 
+        "commands": [
+            {
+                "name": "help",
+                "syntax": "cr.help [command]",
+                "description": "Displays help information on available commands or a detailed help on a specfic command",
+                "example": "cr.help guildlist"
+            },
+            {
+                "name": "info",
+                "syntax": "cr.info",
+                "description": "Provides bot statistical information",
+                "example:": "cr.info"
+            },
+            {
+                "name": "welcome",
+                "syntax": "cr.welcome",
+                "description": "Displays a \"warm\" welcome message from Rex",
+                "example": "cr.welcome"
+            },
+            {
+                "name": "check",
+                "syntax": "cr.check <ally code>",
+                "description": "Gather player intelligence for a give ally code. Intelligence data is retrieved by using the swgoh.help APIs.",
+                "example": "cr.check 232669733"
+            },
+            {
+                "name": "chargear",
+                "syntax": "cr.chargear | cr.cg <toon>",
+                "example": "cr.chargear traya"
+            },
+            {
+                "name": "charabilities",
+                "syntax": "cr.charabilities | cr.ca <toon>",
+                "example": "cr.charabilities vader"
+            },
+            {
+                "name": "acronyms",
+                "syntax": "cr.acronyms [acronym]",
+                "description": "Display information on the unit acronyms I am currently aware of.",
+                "example": "cr.acronyms jkr"
+            }
+        ]
+    },
+    {
+        "area": "User",
+        "commands": [
+            {
+                "name": "register",
+                "syntax": "cr.<ally code>.register [@user]",
+                "description": "Register/associate new ally code with a discord user.\nPlease note that each Discord uses may have more than one ally code associated. If no discord user is given, the message sender is used.",
+                "example": "cr.232669733.register"
+            },
+            {
+                "name": "unregister",
+                "syntax": "cr.<ally code>.unregister",
+                "description": "Unregister given ally code from bot.",
+                "example": "cr.232669733.unregister"
+            },
+            {
+                "name": "myprofile",
+                "syntax": "cr.myprofile | cr.mp",
+                "description": "Gather user profile statistics from swgoh.gg for the previously registered ally code.\nIf more than one ally code is associated with the user, the bot expects a reaction to elect which one to use.",
+                "example": "cr.myprofile"
+            },
+            {
+                "name": "mystats",
+                "syntax": "cr.mystats <toon>",
+                "description": "Gather toon statistics from swgoh.gg for the previously registered ally code.\nIf more than one ally code is associated with the user, the bot expects a reaction to elect which one to use.",
+                "example": "cr.mystats cls"
+            },
+            {
+                "name": "mymods",
+                "syntax": "cr.mymods <toon>",
+                "description": "Gather toon mods from swgoh.gg for the previously registered ally code.\nIf more than one ally code is associated with the user, the bot expects a reaction to elect which one to use.",
+                "example": "cr.mymods jkr"
+            },
+            {
+                "name": "allycode",
+                "syntax": "cr.allycode [@user]",
+                "description": "Lists ally code(s) currently associated with a Discord user.\nIf no user is provided, the message sender Discord id is used.\nNote: Bot supports ally codes parameters in 2 different formats: 9 digit or 9 digit dash separated (232669733 or 232-669-733).",
+                "example": "cr.allycode"
+            },
+            {
+                "name": "guildlist",
+                "syntax": "cr.guildlist [ally code]",
+                "description": "Lists all registered users in the same guild (data provided by swgoh.help) as a Discord user.\nIf no user is provided, the ally code for the sender Discord id is used. If more than one ally code is associated with the user, the bot expects a reaction to elect which one to use.",
+                "example": "cr.guildlist"
+            },
+            {
+                "name": "grandarena.add",
+                "syntax": "cr.grandarena.add | cr.gac.add <toon>",
+                "description": "Adds a unit (character or ship) to your custom list of units for a grand arena battle.\nThis list is added to the default list of units for comparison purposes.",
+                "example": "cr.gac.add vader"
+            },
+            {
+                "name": "grandarena.remove",
+                "syntax": "cr.grandarena.remove | cr.gac.remove <toon>",
+                "description": "Removes a unit (character or ship) from your custom list of units for a grand arena battle.\nThis list is added to the default list of units for comparison purposes.",
+                "example": "cr.gac.remove padme"
+            },
+            {
+                "name": "grandarena.list",
+                "syntax": "cr.grandarena.list | cr.gac.list",
+                "description": "Lists units (character or ship) for grand arena battle.\nThis list is used for comparison purposes.",
+                "example": "cr.gac.list"
+            }
+        ]
+    },
+    {
+        "area": "Guild",
+        "commands": [
+            {
+                "name": "registerguild",
+                "syntax": "cr.registerguild ",
+                "description": "Register guild using the ally code associated with the user.",
+                "example": "cr.registerguild"
+            },
+            {
+                "name": "unregisterguild",
+                "syntax": "cr.unregisterguild",
+                "description": "Unregister guild using the ally code associated with the user.\n\nNote: This command may only be performed by the guild leader of an officer.",
+                "example": "cr.unregisterguild"
+            },
+            {
+                "name": "guildchar",
+                "syntax": "cr.guildchar | cr.gc <toon> [ally code]",
+                "description": "Display guild character statistics from swgoh.help for a given ally code as guild reference id.\nIf no ally code is provided, the message sender Discord id is used to retrive the registered ally code. If more than one ally code is associated with the user, the bot expects a reaction to elect which one to use.",
+                "example": "cr.guildchar gmy"
+            },
+            {
+                "name": "guildship",
+                "syntax": "cr.guildship | cr.gs <toon> [ally code]",
+                "description": "Display guild ship statistics from swgoh.help for a given ally code as guild reference id.\nIf no ally code is provided, the message sender Discord id is used to retrive the registered ally code. If more than one ally code is associated with the user, the bot expects a reaction to elect which one to use.",
+                "example": "cr.guildship malevolence"
+            },
+            {
+                "name": "guildstats",
+                "syntax": "cr.guildstats [ally code]",
+                "description": "Display guild statistics from swgoh.help for a given ally code as guild reference id.\nIf no ally code is provided, the message sender Discord id is used to retrive the registered ally code. If more than one ally code is associated with the user, the bot expects a reaction to elect which one to use.",
+                "example": "cr.guildstats"
+            },
+            {
+                "name": "territorywar.add",
+                "syntax": "cr.territorywar.add | cr.tw.add <toon>",
+                "description": "Adds a unit (character or ship) to your guild custom list of units for a territory war.\nThis list is added to the default list of units for comparison purposes.\n\nNote: This command may only be performed by the guild leader of an officer.",
+                "example": "cr.tw.add vader"
+            },
+            {
+                "name": "territorywar.remove",
+                "syntax": "cr.territorywar.remove | cr.tw.remove <toon>",
+                "description": "Removes a unit (character or ship) from your custom list of units for a territory war.\nThis list is added to the default list of units for comparison purposes.\n\nNote: This command may only be performed by the guild leader of an officer.",
+                "example": "cr.tw.remove padme"
+            },
+            {
+                "name": "territorywar.list",
+                "syntax": "cr.territorywar.list | cr.tw.list",
+                "description": "Lists units (character or ship) for a territory war.\nThis list is used for comparison purposes.",
+                "example": "cr.tw.list"
+            }
+        ]
+    },
+    {
+        "area": "Territory War/Grand Arena",
+        "commands": [
+            {
+                "name": "territorywar",
+                "syntax": "cr.territorywar | cr.tw <ally code>",
+                "description": "Display statistics for a territory war between a registered player (using the associated ally code) and another guild identified by an opponent ally code.\nIf more than one ally code is associated with the user, the bot expects a reaction to elect which one to use.",
+                "example": "cr.territorywar 232-669-733"
+            },
+            {
+                "name": "grandarena",
+                "syntax": "cr.grandarena | cr.gac <ally code>",
+                "description": "Display statistics for a grand arena battle between a registered player (using the associated ally code) and another player identified by an opponent ally code.\nIf more than one ally code is associated with the user, the bot expects a reaction to elect which one to use.",
+                "example": "cr.gac 232-669-733"
+            }
+        ]
+    },
+    {
+        "area": "Raids",
+        "commands": [
+            {
+                "name": "raids.helper",
+                "syntax": "cr.raids.helper [guild] [method]",
+                "description": "Display helper info for recommended raid teams at user or guild level (using the \"guild\" parameter) using one of the following methods:\n- \"closer\": Default method, computes team closer to full achievement using [total achievement %].\n- \"best\": best team for each raid using formula [total achievement % * expected damage %].\n- \"doable\": display only teams fully on player roster.\n- \"full\": full list, display achievement levels for all potential team combinations.",
+                "example": "cr.raids.helper guild"
+            }
+        ]
+    }
+]

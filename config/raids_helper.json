@@ -1,0 +1,1362 @@
+[
+    {
+        "name": "The Pit (Challenge) - P1",
+        "teams": [
+            {
+                "name": "Rey",
+                "variants": [
+                    {
+                        "name": "Jawas & Wat",
+                        "members": [
+                            {
+                                "name": "Rey",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 6
+                            },
+                            {
+                                "name": "Chief Nebit",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 0
+                            },
+                            {
+                                "name": "Jawa Scavenger",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 0
+                            },
+                            {
+                                "name": "Jawa Engineer",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 0
+                            },
+                            {
+                                "name": "Wat Tambor",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 15
+                    },
+                    {
+                        "name": "Clones, C-3PO & HYoda",
+                        "members": [
+                            {
+                                "name": "Rey",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 6
+                            },
+                            {
+                                "name": "CT-7567 \"Rex\"",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "C-3PO",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "CT-5555 \"Fives\"",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Hermit Yoda",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            }
+                        ],
+                        "percentDamage": 15
+                    }
+                ]
+            },
+            {
+                "name": "SLKR",
+                "variants": [
+                    {
+                        "name": "Nightsisters, Hux & HYoda",
+                        "members": [
+                            {
+                                "name": "SLKR",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 6
+                            },
+                            {
+                                "name": "Nightsister Zombie",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 0
+                            },
+                            {
+                                "name": "Old Daka",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "General Hux",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Hermit Yoda",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            }
+                        ],
+                        "percentDamage": 12
+                    }
+                ]
+            },
+            {
+                "name": "Sith Eternal Emperor",
+                "variants": [
+                    {
+                        "name": "Darth Sidious",
+                        "members": [
+                            {
+                                "name": "SEE",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 6
+                            },
+                            {
+                                "name": "Darth Traya",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Darth Sion",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Sith Empire Trooper",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 0
+                            },
+                            {
+                                "name": "Darth Sidious",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 3
+
+                    },
+                    {
+                        "name": "Darth Nihilus",
+                        "members": [
+                            {
+                                "name": "SEE",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 6
+                            },
+                            {
+                                "name": "Darth Traya",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+
+                            },
+                            {
+                                "name": "Darth Sion",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+
+                            },
+                            {
+                                "name": "Sith Empire Trooper",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 0
+
+                            },
+                            {
+                                "name": "Darth Nihilus",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            }
+                        ],
+                        "percentDamage": 3
+
+                    }
+                ]
+            },
+            {
+                "name": "Padmé Amidala",
+                "variants": [
+                    {
+                        "name": "Grand Master Yoda",
+                        "members": [
+                            {
+                                "name": "Padmé Amidala",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Ahsoka Tano",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Jedi Knight Anakin",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Grand Master Yoda",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "General Kenobi",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 2
+                    },
+                    {
+                        "name": "C-3PO",
+                        "members": [
+                            {
+                                "name": "Padmé Amidala",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Ahsoka Tano",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Jedi Knight Anakin",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "C-3PO",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "General Kenobi",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 2
+                    },
+                    {
+                        "name": "General Skywalker",
+                        "members": [
+                            {
+                                "name": "Padmé Amidala",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Ahsoka Tano",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Jedi Knight Anakin",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "General Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 4
+                            },
+                            {
+                                "name": "General Kenobi",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "The Pit (Challenge) - P2/P3",
+        "teams": [
+            {
+                "name": "SLKR",
+                "variants": [
+                    {
+                        "name": "Nightsisters, Wat & Hux",
+                        "members": [
+                            {
+                                "name": "SLKR",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 6
+                            },
+                            {
+                                "name": "Nightsister Zombie",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 0
+                            },
+                            {
+                                "name": "Old Daka",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Wat Tambor",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "General Hux",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 15
+                    },
+                    {
+                        "name": "Nightsisters, Wat & Thrawn",
+                        "members": [
+                            {
+                                "name": "SLKR",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 6
+                            },
+                            {
+                                "name": "Nightsister Zombie",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 0
+                            },
+                            {
+                                "name": "Old Daka",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Wat Tambor",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Grand Admiral Thrawn",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            }
+                        ],
+                        "percentDamage": 15
+                    }
+                ]
+            },
+            {
+                "name": "JKR/JML",
+                "variants": [
+                    {
+                        "name": "Hermit Yoda",
+                        "members": [
+                            {
+                                "name": "Jedi Knight Revan",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 3
+                            },
+                            {
+                                "name": "Jedi Master Luke Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 6
+                            },
+                            {
+                                "name": "Jedi Knight Luke Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "General Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 4
+                            },
+                            {
+                                "name": "Hermit Yoda",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            }
+                        ],
+                        "percentDamage": 8
+                    },
+                    {
+                        "name": "Grand Master Yoda",
+                        "members": [
+                            {
+                                "name": "Jedi Knight Revan",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 3
+                            },
+                            {
+                                "name": "Jedi Master Luke Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 6
+                            },
+                            {
+                                "name": "Jedi Knight Luke Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "General Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 4
+                            },
+                            {
+                                "name": "Grand Master Yoda",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            }
+                        ],
+                        "percentDamage": 8
+                    }
+                ]
+            },
+            {
+                "name": "JKL/JML",
+                "variants": [
+                    {
+                        "name": "Aayla Secura",
+                        "members": [
+                            {
+                                "name": "Jedi Knight Luke Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Jedi Master Luke Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 6
+                            },
+                            {
+                                "name": "Hermit Yoda",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Barriss Offee",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Aayla Secura",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 8
+                    },
+                    {
+                        "name": "Ki-Adi-Mundi",
+                        "members": [
+                            {
+                                "name": "Jedi Knight Luke Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Jedi Master Luke Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 6
+                            },
+                            {
+                                "name": "Hermit Yoda",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Barriss Offee",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Ki-Adi-Mundi",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 8
+                    },
+                    {
+                        "name": "Ezra Bridger",
+                        "members": [
+                            {
+                                "name": "Jedi Knight Luke Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Jedi Master Luke Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 6
+                            },
+                            {
+                                "name": "Hermit Yoda",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Barriss Offee",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Ezra Bridger",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 8
+                    }
+                ]
+            },
+            {
+                "name": "Rey",
+                "variants": [
+                    {
+                        "name": "Default",
+                        "members": [
+                            {
+                                "name": "Rey",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 6
+                            },
+                            {
+                                "name": "CT-5555 \"Fives\"",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "CT-7567 \"Rex\"",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "C-3PO",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Hermit Yoda",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            }
+                        ],
+                        "percentDamage": 7
+                    }
+                ]
+            },
+            {
+                "name": "JKR/JKL/GAS",
+                "variants": [
+                    {
+                        "name": "Hermit Yoda",
+                        "members": [
+                            {
+                                "name": "Jedi Knight Revan",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 3
+                            },
+                            {
+                                "name": "Jedi Knight Luke Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "General Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 4
+                            },
+                            {
+                                "name": "Grand Master Yoda",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Hermit Yoda",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            }
+                        ],
+                        "percentDamage": 5
+                    },
+                    {
+                        "name": "Bastila Shan",
+                        "members": [
+                            {
+                                "name": "Jedi Knight Revan",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 3
+                            },
+                            {
+                                "name": "Jedi Knight Luke Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "General Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 4
+                            },
+                            {
+                                "name": "Grand Master Yoda",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Bastila Shan",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 5
+                    },
+                    {
+                        "name": "Jolee Bindo",
+                        "members": [
+                            {
+                                "name": "Jedi Knight Revan",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 3
+                            },
+                            {
+                                "name": "Jedi Knight Luke Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "General Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 4
+                            },
+                            {
+                                "name": "Grand Master Yoda",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Jolee Bindo",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 5
+                    }
+                ]
+            },
+            {
+                "name": "Aurra Sing",
+                "variants": [
+                    {
+                        "name": "Kuiil",
+                        "members": [
+                            {
+                                "name": "Aurra Sing",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Greef Karga",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Bossk",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Jango Fett",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Kuiil",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 5
+                    },
+                    {
+                        "name": "Boba Fett",
+                        "members": [
+                            {
+                                "name": "Aurra Sing",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Greef Karga",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Bossk",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Jango Fett",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Boba Fett",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 5
+                    },
+                    {
+                        "name": "The Mandalorian",
+                        "members": [
+                            {
+                                "name": "Aurra Sing",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Greef Karga",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Bossk",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Jango Fett",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "The Mandalorian",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            }
+                        ],
+                        "percentDamage": 5
+                    }
+                ]
+            },
+            {
+                "name": "Shaak Ti",
+                "variants": [
+                    {
+                        "name": "Full clones",
+                        "members": [
+                            {
+                                "name": "Shaak Ti",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "CT-7567 \"Rex\"",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "CT-5555 \"Fives\"",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "CT-21-0408 \"Echo\"",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Arc Trooper",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 5
+                    },
+                    {
+                        "name": "C-3PO",
+                        "members": [
+                            {
+                                "name": "Shaak Ti",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "CT-7567 \"Rex\"",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "CT-5555 \"Fives\"",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "CT-21-0408 \"Echo\"",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "C-3PO",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            }
+                        ],
+                        "percentDamage": 5
+                    }
+                ]
+            },
+            {
+                "name": "Veers",
+                "variants": [
+                    {
+                        "name": "Dark Trooper",
+                        "members": [
+                            {
+                                "name": "General Veers",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Moff Gideon",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Admiral Piett",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Dark Trooper",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Colonel Starck",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 5
+                    },
+                    {
+                        "name": "Range Trooper",
+                        "members": [
+                            {
+                                "name": "General Veers",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Moff Gideon",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Admiral Piett",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Range Trooper",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 0
+                            },
+                            {
+                                "name": "Colonel Starck",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 5
+                    }
+                ]
+            },
+            {
+                "name": "General Skywalker",
+                "variants": [
+                    {
+                        "name": "Full clones",
+                        "members": [
+                            {
+                                "name": "General Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 4
+                            },
+                            {
+                                "name": "CT-7567 \"Rex\"",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "CT-5555 \"Fives\"",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "CT-21-0408 \"Echo\"",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Arc Trooper",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 4
+                    },
+                    {
+                        "name": "C-3PO",
+                        "members": [
+                            {
+                                "name": "General Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 4
+                            },
+                            {
+                                "name": "CT-7567 \"Rex\"",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "CT-5555 \"Fives\"",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "CT-21-0408 \"Echo\"",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "C-3PO",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            }
+                        ],
+                        "percentDamage": 4
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "The Pit (Challenge) - P4",
+        "teams": [
+            {
+                "name": "CLS",
+                "variants": [
+                    {
+                        "name": "R2-D2",
+                        "members": [
+                            {
+                                "name": "Commander Luke Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 3
+                            },
+                            {
+                                "name": "Chewbacca",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Han Solo",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Threepio & Chewie",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "R2-D2",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            }
+                        ],
+                        "percentDamage": 1.5
+                    },
+                    {
+                        "name": "C-3PO",
+                        "members": [
+                            {
+                                "name": "Commander Luke Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 3
+                            },
+                            {
+                                "name": "Chewbacca",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Han Solo",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Threepio & Chewie",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "C-3PO",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            }
+                        ],
+                        "percentDamage": 1.5
+                    }
+                ]
+            },
+            {
+                "name": "Darth Revan",
+                "variants": [
+                    {
+                        "name": "HK-47",
+                        "members": [
+                            {
+                                "name": "Darth Revan",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 3
+                            }, 
+                            {
+                                "name": "Bastila Shan (Fallen)",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }, 
+                            {
+                                "name": "Darth Malak",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            }, 
+                            {
+                                "name": "Sith Marauder",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 0
+                            }, 
+                            {
+                                "name": "HK-47",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            }
+                        ],
+                        "percentDamage": 1.5
+                    },
+                    {
+                        "name": "Sith Empire Trooper",
+                        "members": [
+                            {
+                                "name": "Darth Revan",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 3
+                            }, 
+                            {
+                                "name": "Bastila Shan (Fallen)",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }, 
+                            {
+                                "name": "Darth Malak",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            }, 
+                            {
+                                "name": "Sith Marauder",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 0
+                            }, 
+                            {
+                                "name": "Sith Empire Trooper",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 0
+                            }
+                        ],
+                        "percentDamage": 1.5
+                    }
+                ]
+            },
+            {
+                "name": "General Grievous",
+                "variants": [
+                    {
+                        "name": "Dooku",
+                        "members": [
+                            {
+                                "name": "General Grievous",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "B1 Battle Droid",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "IG-100 MagnaGuard",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "B2 Super Battle Droid",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Count Dooku",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 1
+                    },
+                    {
+                        "name": "Nute",
+                        "members": [
+                            {
+                                "name": "General Grievous",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "B1 Battle Droid",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "IG-100 MagnaGuard",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "B2 Super Battle Droid",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Nute Gunray",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 1
+                    },
+                    {
+                        "name": "Droideka",
+                        "members": [
+                            {
+                                "name": "General Grievous",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "B1 Battle Droid",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "IG-100 MagnaGuard",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "B2 Super Battle Droid",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Droideka",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 1
+                    }
+                ]
+            }
+        ]
+    }
+]
