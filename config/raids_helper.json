@@ -1356,6 +1356,83 @@
                         "percentDamage": 1
                     }
                 ]
+            },
+            {
+                "name": "General Hux",
+                "variants": [
+                    {
+                        "name": "FO SF TIE Pilot",
+                        "members": [
+                            {
+                                "name": "General Hux",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Sith Trooper",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Kylo Ren (Unmasked)",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "First Order Executioner",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 0
+                            },
+                            {
+                                "name": "First Order SF TIE Pilot",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 0
+                            }
+                        ],
+                        "percentDamage": 1
+                    },
+                    {
+                        "name": "FO Stormtrooper",
+                        "members": [
+                            {
+                                "name": "General Hux",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Sith Trooper",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Kylo Ren (Unmasked)",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "First Order Executioner",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 0
+                            },
+                            {
+                                "name": "First Order Stormtrooper",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 1
+                    }
+                ]
             }
         ]
     }
