@@ -583,6 +583,47 @@
                 ]
             },
             {
+                "name": "Vader",
+                "variants": [
+                    {
+                        "name": "Default",
+                        "members": [
+                            {
+                                "name": "Darth Vader",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 3
+                            },
+                            {
+                                "name": "Wat Tambor",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Grand Admiral Thrawn",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Darth Traya",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Nute Gunray",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 12
+                    }
+                ]
+            },
+            {
                 "name": "JKR/JML",
                 "variants": [
                     {
