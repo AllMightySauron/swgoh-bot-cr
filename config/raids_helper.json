@@ -83,7 +83,43 @@
                 "name": "SLKR",
                 "variants": [
                     {
-                        "name": "Nightsisters, Hux & HYoda",
+                        "name": "Hux, Thrawn & NS",
+                        "members": [
+                            {
+                                "name": "SLKR",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 6
+                            },
+                            {
+                                "name": "General Hux",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Grand Admiral Thrawn",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Old Daka",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Nightsister Zombie",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 0
+                            }
+                        ],
+                        "percentDamage": 17
+                    },
+                    {
+                        "name": "NS, Hux & HYoda",
                         "members": [
                             {
                                 "name": "SLKR",
@@ -121,13 +157,126 @@
                 ]
             },
             {
-                "name": "Sith Eternal Emperor",
+                "name": "Vader",
                 "variants": [
+                    {
+                        "name": "KRU, C-3PO & BB-8",
+                        "members": [
+                            {
+                                "name": "Darth Vader",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 3
+                            },
+                            {
+                                "name": "Kylo Ren (Unmasked)",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Wat Tambor",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "C-3PO",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "BB-8",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            }
+                        ],
+                        "percentDamage": 17
+                    },
+                    {
+                        "name": "Malak, HYoda & Shaak Ti",
+                        "members": [
+                            {
+                                "name": "Darth Vader",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 3
+                            },
+                            {
+                                "name": "Darth Malak",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Wat Tambor",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Hermit Yoda",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Shaak Ti",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            }
+                        ],
+                        "percentDamage": 17
+                    }
+                ]
+            },
+            {
+                "name": "SEE",
+                "variants": [
+                    {
+                        "name": "Sith leftovers",
+                        "members": [
+                            {
+                                "name": "Sith Eternal Emperor",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 6
+                            },
+                            {
+                                "name": "Sith Marauder",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 0
+                            },
+                            {
+                                "name": "Emperor Palpatine",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Darth Sidious",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Bastila Shan (Fallen)",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 5
+                    },
                     {
                         "name": "Darth Sidious",
                         "members": [
                             {
-                                "name": "SEE",
+                                "name": "Sith Eternal Emperor",
                                 "gear": 13,
                                 "relic": 5,
                                 "zetas": 6
@@ -158,13 +307,12 @@
                             }
                         ],
                         "percentDamage": 3
-
                     },
                     {
                         "name": "Darth Nihilus",
                         "members": [
                             {
-                                "name": "SEE",
+                                "name": "Sith Eternal Emperor",
                                 "gear": 13,
                                 "relic": 5,
                                 "zetas": 6
@@ -174,21 +322,18 @@
                                 "gear": 13,
                                 "relic": 5,
                                 "zetas": 2
-
                             },
                             {
                                 "name": "Darth Sion",
                                 "gear": 13,
                                 "relic": 5,
                                 "zetas": 1
-
                             },
                             {
                                 "name": "Sith Empire Trooper",
                                 "gear": 13,
                                 "relic": 5,
                                 "zetas": 0
-
                             },
                             {
                                 "name": "Darth Nihilus",
@@ -198,7 +343,6 @@
                             }
                         ],
                         "percentDamage": 3
-
                     }
                 ]
             },
@@ -314,6 +458,47 @@
                         "percentDamage": 2
                     }
                 ]
+            },
+            {
+                "name": "General Skywalker",
+                "variants": [
+                    {
+                        "name": "Full clones",
+                        "members": [
+                            {
+                                "name": "General Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 4
+                            },
+                            {
+                                "name": "CT-7567 \"Rex\"",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "CT-5555 \"Fives\"",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "CT-21-0408 \"Echo\"",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Arc Trooper",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 2
+                    }
+                ]
             }
         ]
     },
@@ -324,7 +509,7 @@
                 "name": "SLKR",
                 "variants": [
                     {
-                        "name": "Nightsisters, Wat & Hux",
+                        "name": "NS, Wat & Hux",
                         "members": [
                             {
                                 "name": "SLKR",
@@ -360,7 +545,7 @@
                         "percentDamage": 15
                     },
                     {
-                        "name": "Nightsisters, Wat & Thrawn",
+                        "name": "NS, Wat & Thrawn",
                         "members": [
                             {
                                 "name": "SLKR",
@@ -1178,25 +1363,25 @@
                                 "gear": 13,
                                 "relic": 5,
                                 "zetas": 3
-                            }, 
+                            },
                             {
                                 "name": "Bastila Shan (Fallen)",
                                 "gear": 13,
                                 "relic": 5,
                                 "zetas": 1
-                            }, 
+                            },
                             {
                                 "name": "Darth Malak",
                                 "gear": 13,
                                 "relic": 5,
                                 "zetas": 2
-                            }, 
+                            },
                             {
                                 "name": "Sith Marauder",
                                 "gear": 13,
                                 "relic": 5,
                                 "zetas": 0
-                            }, 
+                            },
                             {
                                 "name": "HK-47",
                                 "gear": 13,
@@ -1214,25 +1399,25 @@
                                 "gear": 13,
                                 "relic": 5,
                                 "zetas": 3
-                            }, 
+                            },
                             {
                                 "name": "Bastila Shan (Fallen)",
                                 "gear": 13,
                                 "relic": 5,
                                 "zetas": 1
-                            }, 
+                            },
                             {
                                 "name": "Darth Malak",
                                 "gear": 13,
                                 "relic": 5,
                                 "zetas": 2
-                            }, 
+                            },
                             {
                                 "name": "Sith Marauder",
                                 "gear": 13,
                                 "relic": 5,
                                 "zetas": 0
-                            }, 
+                            },
                             {
                                 "name": "Sith Empire Trooper",
                                 "gear": 13,
