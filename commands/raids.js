@@ -8,6 +8,8 @@ const { AsciiTable3 } = require('ascii-table3');
 
 const fs = require('fs');
 
+const MSG_DELETE_TIMEOUT = 1000;
+
 /**
  * Raid.
  * @typedef {object} Raid
@@ -126,8 +128,10 @@ class RaidsCommand extends Command {
             // single player
             guildPlayers = this.swgohHelpApi.getPlayers(allyCode);
         } else {
-            // get guild data
+            // get guild player data
+            const guildPlayersMsg = await message.channel.send(`<@${message.author.id}> Retrieving guild player list from swgoh.help...`);
             const guild = this.swgohHelpApi.getGuild(allyCode);
+            await guildPlayersMsg.delete({ timeout: MSG_DELETE_TIMEOUT });
 
             if (!guild) {
                 message.channel.send(this.getReplyEmbedMsg('Raids Helper', `<@${message.author.id}> Cannot fetch guild data for ally code ${allyCode}!`));
@@ -139,7 +143,9 @@ class RaidsCommand extends Command {
             guild.roster.forEach(onePlayer => guildAllyCodes.push(onePlayer.allyCode));
 
             // get guild players with units
+            const guildRosterMsg = await message.channel.send(`<@${message.author.id}> Retrieving guild roster from swgoh.help...`);
             guildPlayers = this.swgohHelpApi.getPlayers(guildAllyCodes);
+            await guildRosterMsg.delete({ timeout: MSG_DELETE_TIMEOUT });
         }
 
         var method;
@@ -153,6 +159,8 @@ class RaidsCommand extends Command {
             method = HelperMethod.CLOSER;
 
         this.logger.info(`Using "${RaidsCommand.getMethodDescription(method)}" reporting method`);
+
+        const outputMsg = await message.channel.send(`<@${message.author.id}> Generating command output for method "${RaidsCommand.getMethodDescription(method)}"...`);
 
         // get raids metadata
         const raidsMeta = JSON.parse(fs.readFileSync("config/raids_helper.json"));
@@ -173,6 +181,8 @@ class RaidsCommand extends Command {
 
             this.reportRaidResults(message, raid, method);
         });
+
+        await outputMsg.delete({ timeout: MSG_DELETE_TIMEOUT });
     }
 
     /**
