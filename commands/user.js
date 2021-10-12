@@ -213,7 +213,7 @@ class UserCommand extends Command {
 **Guild:** ${playerData.data.guild_name}`, 'via swgoh.gg');
 
             // max size for columns
-            const MAX_HEADER_SIZE = 14;
+            const MAX_HEADER_SIZE = 17;
             const MAX_DATA_SIZE = new Intl.NumberFormat().format(playerData.data.galactic_power).length + 4;
 
             const genTable = new AsciiTable3()
@@ -237,6 +237,7 @@ class UserCommand extends Command {
                 .addRow('Gear 11', summaryData.chars.gear[10])   // gear 11
                 .addRow('Gear 12', summaryData.chars.gear[11])   // gear 12
                 .addRow('Gear 13', summaryData.chars.gear[12])   // gear 13
+                .addRow('Gear 13 (R5+)', summaryData.chars.relic5Above)
                 .addRow('Speed 300+', playerData.units.filter(unit => unit.data.stats[StatTypeEnum.StatSpeed] >= 300).length) // speedy
                 .addRow('GLs', summaryData.chars.galacticLegendCount)
                 .addRow('Zetas', summaryData.chars.zetas);
