@@ -189,7 +189,7 @@ class GeneralCommand extends Command {
                                         'via swgoh.help');
 
                     // max size for first column
-                    const MAX_HEADER_SIZE = 14;
+                    const MAX_HEADER_SIZE = 17;
                     const MAX_DATA_SIZE = 
                         new Intl.NumberFormat().format(SwgohHelpApi.getPlayerStat(playerData, 'Galactic Power:')).length + 4;
 
@@ -214,6 +214,7 @@ class GeneralCommand extends Command {
                         .addRow('Gear 11', summaryData.chars.gear[10])    // gear 11
                         .addRow('Gear 12', summaryData.chars.gear[11])    // gear 12
                         .addRow('Gear 13', summaryData.chars.gear[12])    // gear 13
+                        .addRow('Gear 13 (R5+)', summaryData.chars.relic5Above)
                         .addRow('Speed +300', 
                             playerData.roster.
                             filter(unit => unit.combatType == CombatTypeEnum.CombatTypeChar).
