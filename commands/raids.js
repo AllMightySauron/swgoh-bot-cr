@@ -344,15 +344,24 @@ class RaidsCommand extends Command {
     }
 
     /**
-     * Returns a comma separated string with team units.
+     * Returns a comma separated string with team units (excluding leader).
+     * @param {TeamVariant} variant Team variant object.
+     * @returns {string} The team unit descriptions (comma separated).
+     */
+    static getTeamVariantLeader(variant) {
+        return variant.members[0].name;
+    }
+
+    /**
+     * Returns a comma separated string with team units (excluding leader).
      * @param {TeamVariant} variant Team variant object.
      * @returns {string} The team unit descriptions (comma separated).
      */
     static getTeamVariantUnits(variant) {
         var units = '';
 
-        // loop over team variant members
-        for (var i = 0; i < variant.members.length; i++) {
+        // loop over team variant members (except leader)
+        for (var i = 1; i < variant.members.length; i++) {
             const member = variant.members[i];
             
             if (i < variant.members.length - 1) 
@@ -377,15 +386,19 @@ class RaidsCommand extends Command {
         const countTable = new AsciiTable3()
             .setTitle('Teams')
             .setStyle("reddit-markdown")
-            .setHeading('Team Units', '% Dmg', 'Players')
-            .setWidth(1, 34).setWrapped(1);
+            .setHeading('Leader', 'Units', '% Dmg', 'Players')
+            .setWidth(1, 12).setWrapped(1)
+            .setWidth(2, 22).setWrapped(2);
+
+        var lastLeader = '';
 
         // loop over raid teams
         raid.teams.forEach(team => {
 
             // loop over team variants
             team.variants.forEach(variant => {
-                var units = RaidsCommand.getTeamVariantUnits(variant);
+                const leader = RaidsCommand.getTeamVariantLeader(variant);
+                const units = RaidsCommand.getTeamVariantUnits(variant);
 
                 var count = 0;
 
@@ -395,15 +408,16 @@ class RaidsCommand extends Command {
                     count += player.variantResults.filter(playerResults => playerResults.team == team.name && playerResults.variant == variant.name).length;
                 });
 
-                if (count > 0) countTable.addRow(units, variant.percentDamage, count);
+                if (count > 0) {
+                    countTable.addRow(leader == lastLeader ? '...' : leader, units, variant.percentDamage, count);
+
+                    lastLeader = leader;
+                }
             });
 
         });
 
         if (countTable.getRows().length > 0) {
-            // sort descending by damage %
-            countTable.sortColumnDesc(2);
-
             const replyMsg = 
                     this.getReplyEmbedMsg(`Raids Helper "${raid.name}"`, 
                             `<@${message.author.id}>, here are the ${RaidsCommand.getMethodDescription(method)} teams for this raid:`,

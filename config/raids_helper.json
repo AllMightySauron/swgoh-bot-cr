@@ -701,160 +701,6 @@
                 ]
             },
             {
-                "name": "JKL/JML",
-                "variants": [
-                    {
-                        "name": "Aayla Secura",
-                        "members": [
-                            {
-                                "name": "Jedi Knight Luke Skywalker",
-                                "gear": 13,
-                                "relic": 5,
-                                "zetas": 2
-                            },
-                            {
-                                "name": "Jedi Master Luke Skywalker",
-                                "gear": 13,
-                                "relic": 5,
-                                "zetas": 6
-                            },
-                            {
-                                "name": "Hermit Yoda",
-                                "gear": 13,
-                                "relic": 5,
-                                "zetas": 2
-                            },
-                            {
-                                "name": "Barriss Offee",
-                                "gear": 13,
-                                "relic": 5,
-                                "zetas": 1
-                            },
-                            {
-                                "name": "Aayla Secura",
-                                "gear": 13,
-                                "relic": 5,
-                                "zetas": 1
-                            }
-                        ],
-                        "percentDamage": 8
-                    },
-                    {
-                        "name": "Ki-Adi-Mundi",
-                        "members": [
-                            {
-                                "name": "Jedi Knight Luke Skywalker",
-                                "gear": 13,
-                                "relic": 5,
-                                "zetas": 2
-                            },
-                            {
-                                "name": "Jedi Master Luke Skywalker",
-                                "gear": 13,
-                                "relic": 5,
-                                "zetas": 6
-                            },
-                            {
-                                "name": "Hermit Yoda",
-                                "gear": 13,
-                                "relic": 5,
-                                "zetas": 2
-                            },
-                            {
-                                "name": "Barriss Offee",
-                                "gear": 13,
-                                "relic": 5,
-                                "zetas": 1
-                            },
-                            {
-                                "name": "Ki-Adi-Mundi",
-                                "gear": 13,
-                                "relic": 5,
-                                "zetas": 1
-                            }
-                        ],
-                        "percentDamage": 8
-                    },
-                    {
-                        "name": "Ezra Bridger",
-                        "members": [
-                            {
-                                "name": "Jedi Knight Luke Skywalker",
-                                "gear": 13,
-                                "relic": 5,
-                                "zetas": 2
-                            },
-                            {
-                                "name": "Jedi Master Luke Skywalker",
-                                "gear": 13,
-                                "relic": 5,
-                                "zetas": 6
-                            },
-                            {
-                                "name": "Hermit Yoda",
-                                "gear": 13,
-                                "relic": 5,
-                                "zetas": 2
-                            },
-                            {
-                                "name": "Barriss Offee",
-                                "gear": 13,
-                                "relic": 5,
-                                "zetas": 1
-                            },
-                            {
-                                "name": "Ezra Bridger",
-                                "gear": 13,
-                                "relic": 5,
-                                "zetas": 1
-                            }
-                        ],
-                        "percentDamage": 8
-                    }
-                ]
-            },
-            {
-                "name": "Rey",
-                "variants": [
-                    {
-                        "name": "Default",
-                        "members": [
-                            {
-                                "name": "Rey",
-                                "gear": 13,
-                                "relic": 5,
-                                "zetas": 6
-                            },
-                            {
-                                "name": "CT-5555 \"Fives\"",
-                                "gear": 13,
-                                "relic": 5,
-                                "zetas": 2
-                            },
-                            {
-                                "name": "CT-7567 \"Rex\"",
-                                "gear": 13,
-                                "relic": 5,
-                                "zetas": 1
-                            },
-                            {
-                                "name": "C-3PO",
-                                "gear": 13,
-                                "relic": 5,
-                                "zetas": 2
-                            },
-                            {
-                                "name": "Hermit Yoda",
-                                "gear": 13,
-                                "relic": 5,
-                                "zetas": 2
-                            }
-                        ],
-                        "percentDamage": 7
-                    }
-                ]
-            },
-            {
                 "name": "JKR/JKL/GAS",
                 "variants": [
                     {
@@ -967,6 +813,160 @@
                     }
                 ]
             },
+            {
+                "name": "JKL/JML",
+                "variants": [
+                    {
+                        "name": "Aayla Secura",
+                        "members": [
+                            {
+                                "name": "Jedi Knight Luke Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Jedi Master Luke Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 6
+                            },
+                            {
+                                "name": "Hermit Yoda",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Barriss Offee",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Aayla Secura",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 8
+                    },
+                    {
+                        "name": "Ki-Adi-Mundi",
+                        "members": [
+                            {
+                                "name": "Jedi Knight Luke Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Jedi Master Luke Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 6
+                            },
+                            {
+                                "name": "Hermit Yoda",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Barriss Offee",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Ki-Adi-Mundi",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 8
+                    },
+                    {
+                        "name": "Ezra Bridger",
+                        "members": [
+                            {
+                                "name": "Jedi Knight Luke Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Jedi Master Luke Skywalker",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 6
+                            },
+                            {
+                                "name": "Hermit Yoda",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Barriss Offee",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "Ezra Bridger",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            }
+                        ],
+                        "percentDamage": 8
+                    }
+                ]
+            },         
+            {
+                "name": "Rey",
+                "variants": [
+                    {
+                        "name": "Default",
+                        "members": [
+                            {
+                                "name": "Rey",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 6
+                            },
+                            {
+                                "name": "CT-5555 \"Fives\"",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "CT-7567 \"Rex\"",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 1
+                            },
+                            {
+                                "name": "C-3PO",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            },
+                            {
+                                "name": "Hermit Yoda",
+                                "gear": 13,
+                                "relic": 5,
+                                "zetas": 2
+                            }
+                        ],
+                        "percentDamage": 7
+                    }
+                ]
+            }, 
             {
                 "name": "Aurra Sing",
                 "variants": [
