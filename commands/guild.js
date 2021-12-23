@@ -188,7 +188,7 @@ class GuildCommand extends Command {
                 var statistics = {
                     count: 0, star7: 0, G11:0, G12: 0, G13: 0, 
                     zeta0: 0, zeta1: 0, zeta2: 0, zeta3: 0, zeta4: 0, zeta5: 0, zeta6: 0,
-                    relic1:0 , relic2: 0, relic3: 0, relic4: 0, relic5: 0, relic6: 0, relic7: 0
+                    relic1:0 , relic2: 0, relic3: 0, relic4: 0, relic5: 0, relic6: 0, relic7: 0, relic8: 0, relic9: 0
                 };
 
                 var rosterTable = new AsciiTable3()
@@ -220,7 +220,7 @@ class GuildCommand extends Command {
 
                         var relicTier = '-';
                         if (char.gear == 13) relicTier = ''.concat(char.relic.currentTier - 2);
-                        if (relicTier >= '1' && relicTier <= '7') statistics['relic' + relicTier]++;
+                        if (relicTier >= '1' && relicTier <= '9') statistics['relic' + relicTier]++;
 
                         // speed calculation (special case for chars without mods)
                         const charSpeed = 
@@ -279,7 +279,8 @@ class GuildCommand extends Command {
                         .addNonZeroRow('Tier 1', statistics.relic1).addNonZeroRow('Tier 2', statistics.relic2)
                         .addNonZeroRow('Tier 3', statistics.relic3).addNonZeroRow('Tier 4', statistics.relic4)
                         .addNonZeroRow('Tier 5', statistics.relic5).addNonZeroRow('Tier 6', statistics.relic6)
-                        .addNonZeroRow('Tier 7', statistics.relic7);
+                        .addNonZeroRow('Tier 7', statistics.relic7).addNonZeroRow('Tier 8', statistics.relic8)
+                        .addNonZeroRow('Tier 9', statistics.relic9);
 
                     if (relicsTable.getRows().length != 0) replyMsg.addField('Relics', `\`\`\`${relicsTable.toString()}\`\`\``);
 

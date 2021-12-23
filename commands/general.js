@@ -132,26 +132,28 @@ class GeneralCommand extends Command {
             // get player data from swgoh.gg
             const playerData1 = this.swgohGGApi.getPlayer(allyCode);
 
-            if (typeof playerData1) {
+            var lastUpdated;
+            if (playerData1) {
                 // get last update (converting from millisecond epoch)
                 const millisecs = Date.parse(playerData1.data.last_updated);
 
-                var lastUpdated = new Date(0);
+                lastUpdated = new Date(0);
                 lastUpdated.setUTCMilliseconds(millisecs);
-
-                msgText = msgText + `\n\n**Updates:**\n- swgoh.gg: ${lastUpdated}`;
             }
+
+            msgText = msgText + `\n\n**Updates:**\n- swgoh.gg: ${lastUpdated}`;
 
             // get player data from swgoh.help
             const playerData2 = this.swgohHelpApi.getPlayer(allyCode);
 
-            if (typeof playerData2 != 'undefined') {
+            var lastUpdated2;
+            if (playerData2) {
                 // get last update (converting from millisecond epoch)
-                var lastUpdated2 = new Date(0);
+                lastUpdated2 = new Date(0);
                 lastUpdated2.setUTCMilliseconds(playerData2.updated);
-
-                msgText = msgText + `\n- swgoh.help: ${lastUpdated2}`;
             }
+
+            msgText = msgText + `\n- swgoh.help: ${lastUpdated2}`;
         }
 
         msgText = msgText + "\n\nBetter hurry sir, you're missing out all the fun!";

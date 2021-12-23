@@ -136,6 +136,8 @@ class TWCommand extends Command {
                     if (unit.combatType == CombatTypeEnum.CombatTypeChar) {
                         unitTable.addNonZeroRow('Gear 13', myUnitStats.gear[12], opponentUnitStats.gear[12]);
                         unitTable.addNonZeroRow('Gear 12', myUnitStats.gear[11], opponentUnitStats.gear[11]);
+                        unitTable.addNonZeroRow('Relic 9', myUnitStats.relics[9], opponentUnitStats.relics[9]);
+                        unitTable.addNonZeroRow('Relic 8', myUnitStats.relics[8], opponentUnitStats.relics[8]);
                         unitTable.addNonZeroRow('Relic 7', myUnitStats.relics[7], opponentUnitStats.relics[7]);
                         unitTable.addNonZeroRow('Relic 6', myUnitStats.relics[6], opponentUnitStats.relics[6]);
                         unitTable.addNonZeroRow('Relic 5', myUnitStats.relics[5], opponentUnitStats.relics[5]);
